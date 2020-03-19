@@ -1,0 +1,99 @@
+.card-transparent {
+
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: rgba(200,200,200,0.2);
+  padding: 3vw;
+
+}
+
+.card-transparent h1 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-weight: extra-bold;
+  font-size: 10vmin;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  margin-bottom: 2vw;
+  margin-top: 1.25vw;
+
+}
+
+.card-transparent p {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 4vmin;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  width: 70%;
+  margin-top: 0;
+}
+
+@media (max-width: 540px) {
+  .card-transparent {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .card-transparent h1 {
+    font-size: 12vw;
+  }
+}
+
+.cards {
+  padding: 3vh 3vw;
+}
+
+.cards-horizontal {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-product {
+  overflow: hidden; /* hides overflowing content */
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vmin;
+  text-align: center;
+  width: 45vw;
+}
+
+.card-product h3 {
+  font-size: 4vmin;
+  font-weight: bold;
+
+}
+
+.card-product p {
+  font-size: 3vmin;
+  line-height: 1.4;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+.card-product img {
+  height: 7vmin;
+  width: 7vmin;
+  padding: 1vmin;
+}
+
+#win-card h3 {
+  font-size: 5vmin;
+}
+
+#win-card {
+  width: 90vw;
+}
+
+#idea-card {
+  margin-right: 1vmin;
+}
+

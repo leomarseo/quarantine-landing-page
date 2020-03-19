@@ -1,0 +1,22 @@
+.second-page {
+  padding: 10vh 2vw;
+  height: 80vh;
+  width: 96vw;
+}
+
+.second-page h2 {
+  font-size: 8vmin;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .second-page {
+    padding: 20vh 2vw;
+    height: 60vh;
+    width: 96vw;
+  }
+}
+
+.cards-horizontal {
+  display: flex;
+}

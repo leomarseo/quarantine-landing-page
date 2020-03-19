@@ -1,0 +1,23 @@
+.banner-standard {
+  background-image: url(../../images/banner_horizontal.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 15vh 3vw;
+  height: 70vh;
+  width: 94vw;
+}
+
+.banner-standard h1 {
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .banner-standard {
+    background-image: url(../../images/banner_vertical.jpeg);
+    padding: 20vh 2vw;
+    height: 60vh;
+    width: 96vw;
+  }
+}
+
+
