@@ -87,10 +87,13 @@
 
 #win-card h3 {
   font-size: 5vmin;
+  border: solid 0.2px;
+  padding: 3vmin;
 }
 
 #win-card {
   width: 90vw;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 #idea-card {
