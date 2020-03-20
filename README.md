@@ -5,4 +5,4 @@ This is my my first landing page, created using this beatutiful [background pict
 
 ![](quarantine-preview.gif)
 
-The page is reactive to screen size.
+The page is responsive to screen size.
